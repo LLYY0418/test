@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+
+            margin: 0px;
+
+        }
+
+        @keyframes donghua
+        {/* {
+            from {
+                left: 0;
+                top: 0;
+            }
+            to {
+                left: 300px;
+                top: 300px;
+            }
+        } */
+
+            0%{
+                background-position: 0,-80px;
+
+            }
+
+            25%{
+                background-color: 80px,-80px;
+
+            }
+
+            50% {
+                background-position: 160px,-80px;
+
+            }
+
+
+            75% {
+                background-position: 240px,-80px;
+            }
+
+            100% {
+                background-position: 320px,-80px;
+            }
+        }
+
+        @keyframes donghua2{
+            0% {
+                width: 0px;
+                height: 0;
+
+            }
+
+            33% {
+                width: 200px;
+                height: 200px;
+
+            }
+
+            66% {
+                width: 80px;
+                height: 80px;
+            }
+
+            100% {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .box {
+            width: 80px;
+            height: 80px;
+            background-image: url("../day1209/精灵图.jpg");
+            position: relative;
+            animation: donghua 0.1s infinite alternate;
+            /* animation: donghua2 5s infinite 3s; */
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    
+</body>
+</html>
